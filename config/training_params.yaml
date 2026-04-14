@@ -1,0 +1,18 @@
+training:
+  batch_size: 4
+  gradient_accumulation_steps: 4
+  logging_steps: 10
+  learning_rate: 1e-4 # for SFT
+  policy_lr: 1e-5
+  value_lr: 1e-4
+  num_epochs: 2
+  warmup_ratio: 0.05
+  fp16: True
+  temperature: 1
+peft:
+  r: 16
+  lora_alpha: 32
+  target_modules: ["q_proj", "k_proj", "v_proj", "o_proj"]
+  lora_dropout: 0.05
+  bias: "none"
+  task_type: "CAUSAL_LM"

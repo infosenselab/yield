@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this resource in your projects, please cite the following paper."
+title: "YIELD: A Large-Scale Dataset and Evaluation Framework for Information Elicitation Agents"
+authors:
+  - family-names: "De Lima"
+    given-names: "Victor"
+  - family-names: "Yang"
+    given-names: "Grace Hui"
+
+
+preferred-citation:
+  type: misc
+  title: "YIELD: A Large-Scale Dataset and Evaluation Framework for Information Elicitation Agents"
+  authors:
+  - family-names: "De Lima"
+    given-names: "Victor"
+  - family-names: "Yang"
+    given-names: "Grace Hui"
+  year: 2026
+  doi: "10.48550/arXiv.2604.10968"
+  url: "https://arxiv.org/abs/2604.10968"
+  publisher: "arXiv"

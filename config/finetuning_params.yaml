@@ -1,0 +1,18 @@
+training:
+  batch_size: 4
+  gradient_accumulation_steps: 4
+  logging_steps: 10
+  save_strategy: "epoch"
+  eval_strategy: "epoch"
+  learning_rate: 2e-4
+  num_epochs: 3
+  warmup_ratio: 0.05
+  fp16: True
+  report_to: "none"
+peft:
+  r: 16
+  lora_alpha: 32
+  target_modules: ["q_proj", "k_proj", "v_proj", "o_proj"]
+  lora_dropout: 0.05
+  bias: "none"
+  task_type: "CAUSAL_LM"
