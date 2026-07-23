@@ -17,6 +17,6 @@ preferred-citation:
   - family-names: "Yang"
     given-names: "Grace Hui"
   year: 2026
-  doi: "10.48550/arXiv.2604.10968"
-  url: "https://arxiv.org/abs/2604.10968"
-  publisher: "arXiv"
+  doi: "10.18653/v1/2026.acl-long.678"
+  url: "https://aclanthology.org/2026.acl-long.678/"
+  publisher: "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)"
