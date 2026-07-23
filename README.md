@@ -126,12 +126,14 @@ pip install elicitation
 If you use this resource in your projects, please cite the following paper.
 
 ```bibtex
-@misc{De_Lima_YIELD_A_Large-Scale_2026,
+@inproceedings{De_Lima_YIELD_A_Large-Scale_2026,
 author = {De Lima, Victor and Yang, Grace Hui},
-doi = {10.48550/arXiv.2604.10968},
+booktitle = {Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)},
+doi = {10.18653/v1/2026.acl-long.678},
 title = {{YIELD: A Large-Scale Dataset and Evaluation Framework for Information Elicitation Agents}},
-url = {https://arxiv.org/abs/2604.10968},
+url = {https://aclanthology.org/2026.acl-long.678/},
 year = {2026}
 }
 ```
+
 
